@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
               fontFamily: "Caveat",
             ),
       ),
-      home: SignIn(),
+      home: Map(),
       routes: {
         "urgentMessage": (context) => urgentMessage(),
         "importantMessage": (context) => importantMessage(),
